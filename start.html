@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login-Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="login">
+      <h1>Log-in to Duveka</h1>
+      <form onsubmit="return login()">
+        <label for="username" class="txt_field">Username:</label>
+        <input type="text" id="username" class="area"><br><br>
+        <label for="password" class="txt_field">Password:</label>
+        <input type="password" id="password" class="area"><br><br>
+        <input type="submit" value="Login">
+        <a href="https://de.wikipedia.org/wiki/Wartung" class="signup">Not a member? Sign up here!</a>
+        <a href="https://karrierebibel.de/vergesslichkeit/" class="forgot">Forgot Password?</a>
+        <img src="duveka.png" class="img">
+      </form>
+      <p id="error-message" class="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
